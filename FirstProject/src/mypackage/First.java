@@ -80,9 +80,10 @@ public class First {
 
         //String percent = NumberFormat.getPercentInstance().format(0.01);
         //System.out.println(percent);
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("age: ");
-        byte age = scanner.nextByte();
-        System.out.println("you are " + age);
+
+        /*Scanner scanner = new Scanner(System.in);
+        System.out.print("name: ");
+        String name = scanner.nextLine().trim();
+        System.out.println("you are " + name);*/
     }
 }
