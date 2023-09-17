@@ -9,28 +9,27 @@ import java.util.Arrays;
 
 public class First {
     public static void main(String[] args) {
-        //System.out.println("Hello World");
-        //Date now = new Date();
-        //System.out.println(now);
+        System.out.println("Hello World");
+        Date now = new Date();
+        System.out.println(now);
 
         //primative vs referance types:
-        //Point point1 = new Point(1,2);
-        //Point point2 = point1;
-        //point1.x = 2;
-        //System.out.println(point2);
+        Point point1 = new Point(1,2);
+        Point point2 = point1;
+        point1.x = 2;
+        System.out.println(point2);
 
-        //strings:
-        /*String message = "Hello World!!";
+        String message = "Hello World!!";
         Boolean seeif =  message.endsWith("!!");
         int numofm = message.length();
         System.out.println(seeif);
-        System.out.println(numofm);*/
+        System.out.println(numofm);
 
-        /*String message = "Hello World";
+        String message = "Hello World";
         int checkIndex = message.indexOf("llo");
         System.out.println(checkIndex);
         String message2 = message.replace("H","W");
-        System.out.println(message2);*/
+        System.out.println(message2);
 
         /*int[] myArray = {2,3,4,5,1,4};
         System.out.println(myArray.length);
