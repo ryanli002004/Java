@@ -25,64 +25,64 @@ public class First {
         System.out.println(seeif);
         System.out.println(numofm);
 
-        String message = "Hello World";
-        int checkIndex = message.indexOf("llo");
+        String message1 = "Hello World";
+        int checkIndex = message1.indexOf("llo");
         System.out.println(checkIndex);
-        String message2 = message.replace("H","W");
+        String message2 = message1.replace("H","W");
         System.out.println(message2);
 
-        /*int[] myArray = {2,3,4,5,1,4};
+        int[] myArray = {2,3,4,5,1,4};
         System.out.println(myArray.length);
         Arrays.sort(myArray);
-        System.out.println(Arrays.toString(myArray));*/
+        System.out.println(Arrays.toString(myArray));
 
-        /*int[][] numbers = {{1,2,3},{1,2,3}};
-        System.out.println(Arrays.deepToString(numbers));*/
+        int[][] numbers = {{1,2,3},{1,2,3}};
+        System.out.println(Arrays.deepToString(numbers));
 
-        //final float PI = 3.14F;
+        final float PI = 3.14F;
 
-        //double result = (double)10 / 3;
-        //System.out.println(result);
+        double result = (double)10 / 3;
+        System.out.println(result);
         
-        /*int x = 1;
+        int x = 1;
         int y = ++x;
         System.out.println(x);
-        System.out.println(y);*/
+        System.out.println(y);
 
-        /*int x = 1;
-        short y = x + 2; // cant convert int to short you have tp go in order etc. short > int > double
-        System.out.println(y);*/
+        int x1 = 1;
+        long y1 = x1 + 2; // cant convert int to short you have tp go in order etc. short > int > double
+        System.out.println(y);
 
-        //String x = "1";
-        //int y
-        /*int [][] mylist = {{1,2,3}};
+        String x2 = "1";
+        int y2;
+        int [][] mylist = {{1,2,3}};
         System.out.println(Arrays.deepToString(mylist));
-        long num = 2000000000;*/
+        long num = 2000000000;
 
-        /*String x = "1.1";
-        double y = Double.parseDouble(x) +2;
-        System.out.println(y);*/
+        String x3 = "1.1";
+        double y3 = Double.parseDouble(x3) +2;
+        System.out.println(y3);
 
-        /*int result = Math.max(2,1);
-        System.out.println(result);
-        double result1 = Math.random();
+        int result1 = Math.max(2,1);
         System.out.println(result1);
-        int result2 = (int)(Math.random()*100);
-        System.out.println(result2);*/
+        double result2 = Math.random();
+        System.out.println(result2);
+        int result3 = (int)(Math.random()*100);
+        System.out.println(result3);
 
-        /*NumberFormat currency = NumberFormat.getCurrencyInstance();
-        String result = currency.format(1234.243);
-        System.out.println(result);
+        NumberFormat currency = NumberFormat.getCurrencyInstance();
+        String result4 = currency.format(1234.243);
+        System.out.println(result4);
         NumberFormat percent = NumberFormat.getPercentInstance();
-        String result1 = percent.format(0.1);
-        System.out.println(result1);*/
+        String result5 = percent.format(0.1);
+        System.out.println(result5);
 
-        //String percent = NumberFormat.getPercentInstance().format(0.01);
-        //System.out.println(percent);
+        String percent1 = NumberFormat.getPercentInstance().format(0.01);
+        System.out.println(percent1);
 
-        /*Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("name: ");
         String name = scanner.nextLine().trim();
-        System.out.println("you are " + name);*/
+        System.out.println("you are " + name);
     }
 }
